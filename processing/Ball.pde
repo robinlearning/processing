@@ -50,6 +50,6 @@ class Ball {
     move(new PVector(0, speedY));
     speedY += gravity;
     speedY = constrain(speedY, -10, 4);
-
+ 
   }
 }
